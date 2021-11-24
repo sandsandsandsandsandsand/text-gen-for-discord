@@ -1,0 +1,11 @@
+import random
+
+minuscule = "azertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbnazertyuiopqsdfghjklmwxcvbn"
+MAJUSCULE = "AZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBNAZERTYUIOPQSDFGHJKLMWXCVBN"
+nombres = "123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"
+Symboles = "&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./&([-|`_\^@]}{~#€$;:,£%!?./"
+
+all = minuscule + MAJUSCULE + nombres + Symboles
+length = 2000
+password = "".join(random.sample(all,length))
+print('The text you generated is : ',password)
